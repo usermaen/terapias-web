@@ -7,10 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# --- Dependencias (pesan mucho, nunca se suben) ---
 node_modules
+package-lock.json
 dist
 dist-ssr
 *.local
+
+# --- Archivos de Build/Producción ---
+dist/
+build/
+out/
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +29,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- Variables de Entorno (¡SEGURIDAD CRÍTICA!) ---
+# Esto evita que tus llaves de Supabase se filtren al mundo
+backend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
