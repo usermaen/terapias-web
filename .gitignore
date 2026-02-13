@@ -33,6 +33,8 @@ out/
 # --- Variables de Entorno (¡SEGURIDAD CRÍTICA!) ---
 # Esto evita que tus llaves de Supabase se filtren al mundo
 backend/.env
+src/.env
+.env
 .env.local
 .env.development.local
 .env.test.local

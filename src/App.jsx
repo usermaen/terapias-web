@@ -7,7 +7,7 @@ import ReviewList from './components/ReviewList';
 import Footer from './components/Footer';
 
 // URL de tu backend (cámbiala cuando despliegues en Render)
-const API_URL = 'http://localhost:3000'; 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
 function App() {
   const [reviews, setReviews] = useState([]);
