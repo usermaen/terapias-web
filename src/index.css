@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-brown: #6d4c41;
-  --color-brand-green: #4f772d;
-  --color-brand-beige: #f2e8cf;
+  --color-brand-brown: #8B6F47; /* Café madera más claro y cálido */
+  --color-brand-green: #2D5016; /* Verde puro más natural */
+  --color-brand-beige: #F5F5F0; /* Beige muy suave, casi blanco */
+  --color-wood-light: #A68A64; /* Madera clara */
+  --color-wood-dark: #6B5644; /* Madera oscura */
+  --color-green-accent: #4A7C2C; /* Verde acento */
 }
 
 body {
-  @apply bg-slate-50 text-slate-800 font-sans;
+  @apply bg-white text-gray-800 font-sans;
 }

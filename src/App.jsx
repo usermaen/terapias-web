@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero'; // El que hicimos antes
+import Hero from './components/Hero';
 import Services from './components/Services';
-import ReviewForm from './components/ReviewForm'; // El que hicimos antes
+import ReviewForm from './components/ReviewForm';
 import ReviewList from './components/ReviewList';
 import Footer from './components/Footer';
 
@@ -54,16 +54,22 @@ function App() {
 
       <Services />
 
-      {/* Sección de Reseñas */}
-      <section id="resenas" className="py-16 bg-[#f2e8cf]/30">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-[#6d4c41] mb-10">
-            Opiniones de nuestros pacientes
-          </h2>
+      {/* Sección de Reseñas con fondo natural */}
+      <section id="resenas" className="py-20 bg-gradient-to-b from-[#F5F5F0] to-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#2D5016] mb-3">
+              Opiniones de nuestros pacientes
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-[#2D5016] to-[#4A7C2C] mx-auto mb-4"></div>
+            <p className="text-gray-600 text-lg">
+              Conoce las experiencias de quienes han confiado en nosotros
+            </p>
+          </div>
           
           <ReviewForm onReviewSubmit={handleNewReview} />
           
-          <div className="mt-12">
+          <div className="mt-16">
             <ReviewList reviews={reviews} />
           </div>
         </div>
