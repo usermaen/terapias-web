@@ -24,18 +24,18 @@ export default function Services() {
         
         <div className="grid md:grid-cols-3 gap-8">
           <ServiceCard 
-            title="Terapia 40 Minutos" 
-            price="3.500" 
+            title="Sesión de Terapia - 40 Minutos" 
+            price="5.000" 
             desc="Sesión completa de masaje térmico y acupresión para alivio profundo y restauración integral." 
           />
           <ServiceCard 
-            title="Terapia 30 Minutos" 
+            title="Sesión de Terapia - 30 Minutos" 
             price="3.000" 
             desc="Ideal para mantenimiento y relajación muscular express con resultados efectivos." 
           />
           <ServiceCard 
-            title="Evaluación Inicial" 
-            price="Gratis" 
+            title="Sesión de Terapia Cervical - 15 Minutos" 
+            price="2.000" 
             desc="Primera visita para determinar el mejor tratamiento personalizado para tu columna." 
           />
         </div>

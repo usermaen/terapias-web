@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-semibold text-lg">Dirección</p>
-                <p className="text-[#F5F5F0]">Calle Principal 123, Tu Ciudad, Chile</p>
+                <p className="text-[#F5F5F0]">21 de Mayo 364, Freire, Araucanía, Chile</p>
               </div>
             </div>
             
@@ -43,9 +43,6 @@ export default function Footer() {
           
           <div className="mt-10 flex gap-4">
             {/* Botones Sociales */}
-            <button className="flex-1 bg-white text-[#8B6F47] px-6 py-3 rounded-xl font-bold hover:bg-[#F5F5F0] transition-colors shadow-lg flex items-center justify-center gap-2">
-              <span>📸</span> Instagram
-            </button>
             <button className="flex-1 bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#20BA5A] transition-colors shadow-lg flex items-center justify-center gap-2">
               <span>💬</span> WhatsApp
             </button>
@@ -55,13 +52,13 @@ export default function Footer() {
         {/* Lado Derecho: Mapa */}
         <div className="h-96 bg-gray-300 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0!2d-70.6!3d-33.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDI3JzAwLjAiUyA3MMKwMzYnMDAuMCJX!5e0!3m2!1ses!2scl!4v1600000000000!5m2!1ses!2scl" 
+                src="https://www.google.com/maps/embed?pb=!4v1773335210075!6m8!1m7!1spxWVlyBJ4GSNXSPEcLVm0w!2m2!1d-38.95297499514745!2d-72.62719799682816!3f80.57510136206625!4f-6.580012063995397!5f0.4000000000000002" 
                 width="100%" 
                 height="100%" 
                 style={{border:0}} 
                 allowFullScreen="" 
                 loading="lazy"
-                title="Ubicación Terapias Seragem">
+                title="Ubicación Terapias Esperanza">
             </iframe>
         </div>
 
@@ -76,7 +73,7 @@ export default function Footer() {
             <span className="text-2xl">🌿</span>
           </div>
           <p className="text-sm text-white/60">
-            © 2026 Terapias Seragem - Desarrollado por Felipe
+            © 2026 Terapias Esperanza
           </p>
         </div>
       </div>

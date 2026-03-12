@@ -1,3 +1,5 @@
+import camillasPhoto from '../assets/camillas.webp'
+
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-b from-white to-[#F5F5F0] py-20 px-6">
@@ -15,7 +17,7 @@ export default function Hero() {
         </div>
         <div className="flex-1">
           <img 
-            src="/camilla-seragem.jpg" 
+            src={camillasPhoto} 
             alt="Local Terapias" 
             className="rounded-3xl shadow-2xl border-8 border-white hover:scale-105 transition-transform duration-300"
           />

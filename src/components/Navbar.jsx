@@ -5,9 +5,9 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
             {/* Logo con estilo natural */}
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#2D5016] font-bold text-xl shadow-md">
-              S
+              E
             </div>
-            <span className="text-2xl font-bold tracking-wide">Terapias Seragem</span>
+            <span className="text-2xl font-bold tracking-wide">Terapias Esperanza</span>
         </div>
         <ul className="hidden md:flex gap-8 font-medium text-lg">
           <li><a href="#inicio" className="hover:text-[#F5F5F0] transition-colors border-b-2 border-transparent hover:border-white pb-1">Inicio</a></li>
