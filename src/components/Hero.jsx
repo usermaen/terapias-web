@@ -11,7 +11,10 @@ export default function Hero() {
           <p className="text-gray-700 text-xl leading-relaxed">
             Técnicas especializadas para el dolor y bienestar integral con la esencia natural del sur de Chile.
           </p>
-          <button className="mt-8 bg-[#2D5016] text-white px-10 py-4 rounded-lg font-bold text-lg shadow-xl hover:bg-[#4A7C2C] hover:scale-105 transition-all duration-300">
+          <button 
+            onClick={() => document.getElementById('ubicacion')?.scrollIntoView({ behavior: 'smooth' })}
+            className="mt-8 bg-[#2D5016] text-white px-10 py-4 rounded-lg font-bold text-lg shadow-xl hover:bg-[#4A7C2C] hover:scale-105 transition-all duration-300"
+          >
             Reserva tu hora
           </button>
         </div>

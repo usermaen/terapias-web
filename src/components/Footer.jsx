@@ -43,9 +43,14 @@ export default function Footer() {
           
           <div className="mt-10 flex gap-4">
             {/* Botones Sociales */}
-            <button className="flex-1 bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#20BA5A] transition-colors shadow-lg flex items-center justify-center gap-2">
+            <a 
+              href="https://wa.me/56999283805?text=Hola,%20me%20gustaría%20agendar%20una%20hora." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex-1 bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#20BA5A] transition-colors shadow-lg flex items-center justify-center gap-2"
+            >
               <span>💬</span> WhatsApp
-            </button>
+            </a>
           </div>
         </div>
 
